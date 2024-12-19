@@ -1,0 +1,67 @@
+.form-row {
+  margin-bottom: 0px; /* Space between rows */
+}
+
+.input-group {
+  display: flex; /* Use flexbox for horizontal layout */
+  align-items: center; /* Center items vertically */
+}
+
+.text-input, .select-input {
+  width: 20%; /* Adjusted width for horizontal layout */
+  padding: 10px 15px; /* Adjusted padding */
+  margin: 8px 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  width: 15%; /* Adjusted width for horizontal layout */
+  background-color: #5D3141;
+  color: white;
+  padding: 12px 15px; /* Adjusted padding */
+  margin: 8px 5px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 5px;
+   
+}
+
+
+
+
+
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse; /* Collapse borders */
+}
+
+.table-header, .table-data {
+  border: 1px solid rgb(139, 134, 134); /* Border for cells */
+  padding: 10px; /* Padding for cells */
+  text-align: center; /* Center text */
+}
+
+.table-header {
+  font-family: 'Lato', sans-serif; /* Use a web-safe fallback */
+  font-weight: bold; /* Bold text */
+  font-size: 18px; /* Font size for header */
+  color: #fff; /* Text color for header */
+  background-color: #9396aecd; /* Background color for header */
+}
+
+.table-data {
+  background-color: #ffffff; /* Background color for data cells */
+}

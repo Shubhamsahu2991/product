@@ -1,0 +1,53 @@
+<h3>Search Your Good Product</h3>
+<div>
+    <form>
+        <div class="form-row">
+            <h4>Company</h4>
+            <select id="company" name="company">
+                <option value="Goldmedal">Goldmedal</option>
+                <option value="Anchor">Anchor</option>
+                <option value="Local">Local</option>
+            </select>
+
+            <h4>Category</h4>
+            <select id="category" name="category">
+                <option value="Wire">Wire</option>
+                <option value="Bulb">Bulb</option>
+                <option value="Fan">Fan</option>
+            </select>
+
+            <input type="submit" value="Search">
+        </div>
+    </form>
+</div>
+
+ 
+<table class="data-table" id="data-table">
+  <thead>
+    <tr>
+      <th class="table-header">Company</th>
+      <th class="table-header">Category</th>
+      <th class="table-header">Product</th>
+      <th class="table-header">Product Id</th>
+      <th class="table-header">Rate</th>
+      <th class="table-header">Quantity</th>
+      <th class="table-header">Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of data">
+      <td class="table-data">{{ item.company }}</td>
+      <td class="table-data">{{ item.category }}</td>
+      <td class="table-data">{{ item.product }}</td>
+      <td class="table-data">{{ item.productId }}</td>
+      <td class="table-data">{{ item.rate }}</td>
+      <td class="table-data">{{ item.quantity }}</td>
+      <td class="table-data">{{ item.total }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="button-container">
+  <button (click)="exportToExcel()">Export to Excel</button>
+  <button (click)="printTable()">Print</button>
+</div>

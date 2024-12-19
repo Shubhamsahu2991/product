@@ -1,0 +1,15 @@
+.main-content {
+    transition: background-color 0.2s ease, color 0.2s ease;
+    display: flex; /* Use flexbox for layout */
+}
+
+app-sidebar {
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.content {
+    transition: background-color 0.2s ease, color 0.2s ease;
+    flex-grow: 1; /* Allow the content area to take up the remaining space */
+    padding: 20px; /* Optional: add some padding */
+    background-color: #eaeaea; /* Optional: background color for the content area */
+}

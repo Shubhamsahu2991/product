@@ -1,0 +1,21 @@
+<div class="navbar">
+    <div class="navbar-brand">
+
+      <a class="showhide" style="color: aliceblue;" (click)="toggleSidebar()">
+        <i class="fa fa-fw fa-bars"></i>    
+       </a>
+      <a href="#" class="logo"> Welcome! Radhika Electronics</a>
+     
+    </div>
+
+    
+    <div class="navbar-links" [ngClass]="{'open': isNavbarOpen}">
+       
+      <a routerLink="/profile"> <i class="fa fa-fw fa-user"></i> username</a>
+
+      <a routerLink="/profile"> <i class="fa fa-fw fa-circle"></i> Logout</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" (click)="toggleNavbar()">
+      <i class="fas fa-bars"></i> <!-- Font Awesome Hamburger Icon -->
+    </a>
+  </div>

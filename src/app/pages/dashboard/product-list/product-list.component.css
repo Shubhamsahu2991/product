@@ -1,0 +1,88 @@
+.form-row {
+    display: flex; /* Use flexbox to arrange items in a row */
+    align-items: center; /* Center items vertically */
+    gap: 25px; /* Space between elements */
+}
+
+select {
+    width: 200px; /* Allow select elements to size based on content */
+    padding: 10px; /* Adjust padding */
+    margin: 0; /* Remove margin */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    background-color: #5D3141;
+    color: white;
+    padding: 10px 15px; /* Adjust padding */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 200px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the buttons horizontally */
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+     /* Set a max width for the form */
+    margin: auto; /* Center the form */
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse borders */
+}
+
+.table-header, .table-data {
+    border: 1px solid rgb(139, 134, 134); /* Border for cells */
+    padding: 10px; /* Padding for cells */
+    text-align: center; /* Center text */
+}
+
+.table-header {
+    font-family: 'Lato', sans-serif; /* Use a web-safe fallback */
+    font-weight: bold; /* Bold text */
+    font-size: 18px; /* Font size for header */
+    color: #fff; /* Text color for header */
+    background-color: #9396aecd; /* Background color for header */
+}
+
+.table-data {
+    background-color: #ffffff; /* Background color for data cells */
+}
+
+.button-container {
+   
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the buttons horizontally */
+    margin-top: 20px; /* Add some space above the buttons */
+  }
+  
+.button-container button {
+    
+    width: 200px;
+    margin: 0 10px; /* Add some space between the buttons */
+    
+    
+
+    background-color:#5D3141;
+    color: white;
+    padding: 10px 15px; /* Adjust padding */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+
+
+
+
+ 
