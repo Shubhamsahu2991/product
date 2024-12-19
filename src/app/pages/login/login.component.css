@@ -15,7 +15,7 @@
   max-width: 850px;
   width: 100%;
   background: #fff;
-  padding: 40px 30px;
+  padding: 20px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   perspective: 2700px;
   border: 1px solid blanchedalmond;
@@ -57,14 +57,18 @@
 }
 
 .container .cover img {
+   
   position: absolute;
   height: 100%;
   width: 100%;
   object-fit: cover;
   z-index: 10;
-  border: 1px solid blanchedalmond;
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 5px;
   background-color: rgba(127, 255, 212, 0.228);
+  background-image: url(../../../assets/Images/LOGINLOGO.jpg);
+  
+ 
 }
 
 .container .cover .text {
